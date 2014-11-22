@@ -14,7 +14,8 @@
  * limitations under the License.
  */
 
-package com.android.calculator2;
+package com.hamzahrmalik.calculator2;
+
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -22,8 +23,8 @@ import android.graphics.Paint;
 import android.graphics.Paint.FontMetricsInt;
 import android.graphics.Rect;
 import android.os.Parcelable;
-import android.text.method.ScrollingMovementMethod;
 import android.text.TextPaint;
+import android.text.method.ScrollingMovementMethod;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.ActionMode;

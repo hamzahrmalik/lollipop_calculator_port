@@ -14,7 +14,8 @@
  * limitations under the License.
  */
 
-package com.android.calculator2;
+package com.hamzahrmalik.calculator2;
+
 
 import android.content.Context;
 import android.support.v4.view.PagerAdapter;
@@ -22,6 +23,7 @@ import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
+
 
 public class CalculatorPadViewPager extends ViewPager {
 

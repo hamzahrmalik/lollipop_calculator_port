@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package com.android.calculator2;
-
-import android.content.Context;
+package com.hamzahrmalik.calculator2;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
+
+import android.content.Context;
 
 public class CalculatorExpressionTokenizer {
 
     private final Map<String, String> mReplacementMap;
 
     public CalculatorExpressionTokenizer(Context context) {
-        mReplacementMap = new HashMap<>();
+        mReplacementMap = new HashMap<String, String>();
 
         mReplacementMap.put(".", context.getString(R.string.dec_point));
 
